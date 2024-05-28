@@ -30,6 +30,7 @@ epochs = 1000
 
 weights = train_logistic_regression(X_train, y_train, learning_rate, epochs)
 
+<br>
 
 - Evaluating the Model
 
