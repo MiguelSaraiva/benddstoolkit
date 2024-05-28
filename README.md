@@ -22,8 +22,8 @@ To train the logistic regression model, use the train_logistic_regression functi
 
 import "logistic_regression.bend"
 
-X_train = load your training data
-y_train = load your training data
+X_train = load your training data<br>
+y_train = load your training data<br>
 
 learning_rate = 0.01
 epochs = 1000
@@ -38,8 +38,8 @@ To evaluate the model, use the provided metrics functions:
 
 import "logistic_regression.bend"
 
-X_test = load your testing data
-y_test = load your testing data
+X_test = load your testing data<br>
+y_test = load your testing data<br>
 
 test_predictions = predict(X_test, weights)
 y_pred = threshold_predictions(test_predictions)
