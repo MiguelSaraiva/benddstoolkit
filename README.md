@@ -15,7 +15,7 @@ Ensure you have the Bend compiler installed. Clone this repository to your local
 
 ## Usage
 
-Training the Model
+-Training the Model
 
 To train the logistic regression model, use the train_logistic_regression function. You need to provide the input data X, true labels y, learning rate, and the number of epochs.
 
@@ -31,7 +31,7 @@ epochs = 1000
 weights = train_logistic_regression(X_train, y_train, learning_rate, epochs)
 
 
-Evaluating the Model
+-Evaluating the Model
 
 To evaluate the model, use the provided metrics functions:
 
